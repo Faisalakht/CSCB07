@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewRecord" >
+
+        <EditText
+            android:id="@+id/tempInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:ems="10"
+            android:hint="@string/temp" />
+ 
+        <Button
+            android:id="@+id/submitRecordButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:onClick="submitRecord"
+            android:text="@string/submit" />
+
+        <EditText
+            android:id="@+id/bloodInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/heartInput"
+            android:layout_marginTop="52dp"
+            android:ems="10"
+            android:hint="@string/blood" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/heartInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tempInput"
+            android:layout_marginTop="58dp"
+            android:ems="10"
+            android:hint="@string/heart" />
+
+</RelativeLayout>

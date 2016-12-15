@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhysicianView" >
+
+    <TextView
+        android:id="@+id/patientInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/addPresButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/HCNentry"
+        android:fadeScrollbars="false"
+        android:maxLines="25"
+        android:scrollbars="vertical"
+        android:text="@string/prompt" />
+
+   	<EditText
+   	    android:id="@+id/HCNentry"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_alignParentLeft="true"
+   	    android:layout_alignParentRight="true"
+   	    android:layout_alignParentTop="true"
+   	    android:ems="10"
+   	    android:hint="@string/HCN" />
+
+   	<Button
+   	    android:id="@+id/findPatient"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_alignParentBottom="true"
+   	    android:layout_alignParentLeft="true"
+   	    android:layout_toLeftOf="@+id/addPresButton"
+   	    android:onClick="findPatient"
+   	    android:text="@string/findPatientButton" />
+
+   	<Button
+   	    android:id="@+id/addPresButton"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_alignParentBottom="true"
+   	    android:layout_alignParentRight="true"
+   	    android:layout_alignTop="@+id/findPatient"
+   	    android:onClick="toNewPres"
+   	    android:text="@string/newPresButton" />
+
+</RelativeLayout>

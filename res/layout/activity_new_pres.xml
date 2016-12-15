@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewPres" >
+
+        <EditText
+        	android:id="@+id/medInput"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:ems="10"
+        	android:hint="@string/meds" />
+
+        <EditText
+            android:id="@+id/instructionsInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/medInput"
+            android:layout_marginTop="54dp"
+            android:ems="10"
+            android:hint="@string/instructions" />
+
+        <Button
+            android:id="@+id/submitPresButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:onClick="submitPrescription"
+            android:text="@string/submit" />
+
+</RelativeLayout>

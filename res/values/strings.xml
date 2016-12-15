@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TriageApplication</string>
+    <string name="menu_settings">Log out</string>
+    <string name="title_activity_login_menu">TriageApplication</string>
+
+    <!-- Login Menu -->
+    <string name="user">Username</string>
+    <string name="pass">Password</string>
+    <string name="loginButton">Login</string>
+
+    <!-- Main Menu -->
+    <string name="newPatientButton">New Patient</string>
+    <string name="loadPatientButton">View Patient</string>
+
+    <!-- Patient Select -->
+    <string name="findPatientButton">Find Patient</string>
+    <string name="listPatientButton">List Patients</string>
+    <string name="prompt">Enter Patient HCN</string>
+
+    <!-- New Patient -->
+    <string name="name">Name: (firstlast)</string>
+    <string name="HCN">HCN: (####)</string>
+    <string name="DoB">DoB: (yyyy/dd/mm)</string>
+    <string name="submit">Submit</string>
+
+    <!-- Patient Menu -->
+    <string name="viewButton">View Record</string>
+    <string name="updateButton">Add a Record</string>
+    <string name="deleteButton">Delete Record</string>
+
+    <!-- PhysicianView -->
+    <string name="newPresButton">Add a Prescription</string>
+
+    <!-- View/New Record -->
+    <string name="arrival">Arrival:</string>
+    <string name="temp">Temperature: (Degrees Celsius)</string>
+    <string name="heart">Heart Rate:</string>
+    <string name="blood">Blood Pressure: (Systolic)</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_patient_select">PatientSelect</string>
+    <string name="title_activity_patient_menu">PatientMenu</string>
+    <string name="title_activity_view_record">ViewRecord</string>
+    <string name="title_activity_new_record">NewRecord</string>
+    <string name="title_activity_new_patient">NewPatient</string>
+    <string name="title_activity_physician_view">PhysicianView</string>
+    <string name="title_activity_new_pres">NewPres</string>
+    
+    <!-- New Prescription -->
+    <string name="meds">Medications:</string>
+    <string name="instructions">Instructions:</string>
+
+</resources>

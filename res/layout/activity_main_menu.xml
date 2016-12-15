@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu" >
+
+    <Button
+        android:id="@+id/NewPatientButton"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/LoadPatientButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="toNewPatient"
+        android:text="@string/newPatientButton" />
+    
+   	<Button
+        android:id="@+id/LoadPatientButton"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="135dp"
+        android:onClick="toPatientSelect"
+        android:text="@string/loadPatientButton" />
+
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewPatient" >
+
+        <EditText
+        	android:id="@+id/nameInput"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:ems="10"
+        	android:hint="@string/name" />
+
+        <EditText
+            android:id="@+id/birthInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/nameInput"
+            android:layout_marginTop="54dp"
+            android:ems="10"
+            android:hint="@string/DoB" />
+
+        <EditText
+            android:id="@+id/idInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/birthInput"
+            android:layout_marginTop="65dp"
+            android:ems="10"
+            android:hint="@string/HCN" />
+
+        <Button
+            android:id="@+id/submitPatientButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:onClick="submitPatient"
+            android:text="@string/submit" />
+    
+</RelativeLayout>
